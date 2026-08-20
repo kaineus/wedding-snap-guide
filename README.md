@@ -43,6 +43,9 @@ Chrome 헤드리스로 인쇄해 `pdf/`에 저장합니다. 인쇄 레이아웃�
 2. `node build-pdf.js` 로 PDF 재생성.
 3. `git add -A && git commit -m "..." && git push` → 1~2분 뒤 링크에 반영.
 
+> 푸시는 개인 계정(`kaineus`)으로 나가야 해서, 리모트 URL에 계정을 박아둑니다.
+> (`https://kaineus@github.com/...`) 그래서 `gh auth switch` 없이 바로 푸시됩니다.
+
 ### 아직 비어 있는 것
 
 - **신랑 의상** — 원본 PPT에도 `0000`, `ㅇㅇ` 로 비어 있어 점선 박스 처리.
